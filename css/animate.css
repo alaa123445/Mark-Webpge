@@ -34,3 +34,16 @@ section .text span {
     position: relative;
     display: inline-block;
 }
+
+@media(max-width:770px) {
+    section .text {
+        width: 100%;
+        font-size: 3em;
+    }
+}
+
+@media(max-width:500px) {
+    section .text {
+        width: 95%
+    }
+}
